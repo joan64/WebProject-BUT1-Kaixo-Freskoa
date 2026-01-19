@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Rechercher une recette </title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../assets/img/Kaixo-Freskoa.svg" alt="Logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Page-gestion-commande.html">Mes commandes</a></li>
+                <li><a href="nos-recettes.html">Mes recettes</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="button" href="commander.html">Commander</a>
+    </header>
+
+    <section class="zone-filtres">
+        <form class="filtres">
+
+
+
+            <!--Choix des viandes-->
+
+            <fieldset>
+                <legend>Composition</legend>
+                <table>
+                    <p>------------viandes------------</p>
+                    <tr>
+                        <td><label><input type="checkbox"> Poulet</label></td>
+                        <td><label><input type="checkbox"> Veau</label></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"> Boeuf</label></td>
+                        <td><label><input type="checkbox"> Agneau</label></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"> Porc</label></td>
+                        <td><label><input type="checkbox"> Sanglier</label></td>
+                    </tr>
+                </table>
+
+                <!-- Choix des poissons -->
+                <p>---------------poissons---------------</p>
+
+                <table>
+                    <tr>
+                        <td><label><input type="checkbox"> Thon</label></td>
+                        <td><label><input type="checkbox"> Maquereau</label></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"> Sardine</label></td>
+                        <td><label><input type="checkbox">Truite</label></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"> Saumon</label></td>
+                        <td><label><input type="checkbox"> Brochet</label></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+
+            <!--choix de la place du plat dans le repas-->
+            <fieldset class="colonne">
+                <legend>Place</legend>
+                <label><input type="checkbox"> Entrée</label>
+                <label><input type="checkbox"> Plat</label>
+                <label><input type="checkbox"> Dessert</label>
+                <label><input type="checkbox"> Soupe</label>
+                <label><input type="checkbox"> Salade</label>
+            </fieldset>
+            
+            <!--choix de la durée de préparation et de cuisson-->
+            <fieldset class="colonne">
+                <legend>Durées</legend>
+                <label><input type="checkbox"> Moins de 15 min</label>
+                <label><input type="checkbox"> Entre 15 et 30 min</label>
+                <label><input type="checkbox"> + de 30 min</label>
+                <label><input type="checkbox"> Cuisson courte</label>
+                <label><input type="checkbox"> Cuisson longue</label>
+            </fieldset>
+
+
+        </form>
+    </section>
+
+     <!--liste des recettes-->
+    <section class="zone-recettes">
+
+        <a href="" class="recette">
+            <img src="../assets/img/Salade-poulet-avocat.png" alt="Salade Poulet/Avocat">
+            <h2>Salade Poulet/Avocat</h2>
+        </a>
+
+        <a href="" class="recette">
+            <img src="../assets/img/nouilles-au-poulet.png" alt="nouilles-au-poulet">
+            <h2>Nouilles-au-poulet</h2>
+        </a>
+
+        <a href="" class="recette">
+            <img src="../assets/img/tuna-melt.png" alt="tuna-melt">
+            <h2>tuna-melt</h2>
+        </a>
+
+    </section>
+
+
+
+    <footer>
+        <p id="copyright">© Kaixo freskoa 2025</p>
+        <ul>
+            <li class="listeFooter"><a href="#">Conditions générales</a></li>
+            <li class="listeFooter"><a href="#">Confidentialité</a></li>
+            <li class="listeFooter"><a href="#">Mention légales</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
